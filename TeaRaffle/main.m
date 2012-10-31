@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Stopwatch
+//  TeaRaffle
 //
 //  Created by Jon Gold on 30/10/2012.
 //  Copyright (c) 2012 Jon Gold. All rights reserved.

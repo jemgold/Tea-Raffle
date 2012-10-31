@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC4F27C016409F3A00DE1D3F /* JGTableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = FC4F27BF16409F3A00DE1D3F /* JGTableDelegate.rb */; };
 		FCD7E2C9164082780009AD2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7E2C8164082780009AD2C /* Cocoa.framework */; };
 		FCD7E2CB164082780009AD2C /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD7E2CA164082780009AD2C /* MacRuby.framework */; };
 		FCD7E2D4164082780009AD2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD7E2D2164082780009AD2C /* InfoPlist.strings */; };
@@ -22,18 +23,19 @@
 			containerPortal = FCD7E2BB164082780009AD2C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FCD7E2C3164082780009AD2C;
-			remoteInfo = Stopwatch;
+			remoteInfo = TeaRaffle;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FCD7E2C4164082780009AD2C /* Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4F27BF16409F3A00DE1D3F /* JGTableDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = JGTableDelegate.rb; sourceTree = "<group>"; };
+		FCD7E2C4164082780009AD2C /* Tea Raffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Raffle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD7E2C8164082780009AD2C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FCD7E2CA164082780009AD2C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		FCD7E2D1164082780009AD2C /* Stopwatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stopwatch-Info.plist"; sourceTree = "<group>"; };
+		FCD7E2D1164082780009AD2C /* TeaRaffle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeaRaffle-Info.plist"; sourceTree = "<group>"; };
 		FCD7E2D3164082780009AD2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCD7E2D5164082780009AD2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCD7E2D7164082780009AD2C /* Stopwatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stopwatch-Prefix.pch"; sourceTree = "<group>"; };
+		FCD7E2D7164082780009AD2C /* TeaRaffle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeaRaffle-Prefix.pch"; sourceTree = "<group>"; };
 		FCD7E2DA164082780009AD2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FCD7E2DD164082780009AD2C /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		FCD7E2DF164082780009AD2C /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
@@ -55,7 +57,7 @@
 		FCD7E2B9164082780009AD2C = {
 			isa = PBXGroup;
 			children = (
-				FCD7E2CF164082780009AD2C /* Stopwatch */,
+				FCD7E2CF164082780009AD2C /* TeaRaffle */,
 				FCD7E2C7164082780009AD2C /* Frameworks */,
 				FCD7E2C5164082780009AD2C /* Products */,
 			);
@@ -64,7 +66,7 @@
 		FCD7E2C5164082780009AD2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCD7E2C4164082780009AD2C /* Stopwatch.app */,
+				FCD7E2C4164082780009AD2C /* Tea Raffle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,24 +80,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FCD7E2CF164082780009AD2C /* Stopwatch */ = {
+		FCD7E2CF164082780009AD2C /* TeaRaffle */ = {
 			isa = PBXGroup;
 			children = (
 				FCD7E2DF164082780009AD2C /* AppDelegate.rb */,
+				FC4F27BF16409F3A00DE1D3F /* JGTableDelegate.rb */,
 				FCD7E2D8164082780009AD2C /* Resources */,
 				FCD7E2DC164082780009AD2C /* Other Sources */,
 				FCD7E2D0164082780009AD2C /* Supporting Files */,
 			);
-			path = Stopwatch;
+			name = TeaRaffle;
+			path = TeaRaffle;
 			sourceTree = "<group>";
 		};
 		FCD7E2D0164082780009AD2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FCD7E2D1164082780009AD2C /* Stopwatch-Info.plist */,
+				FCD7E2D1164082780009AD2C /* TeaRaffle-Info.plist */,
 				FCD7E2D2164082780009AD2C /* InfoPlist.strings */,
 				FCD7E2D5164082780009AD2C /* main.m */,
-				FCD7E2D7164082780009AD2C /* Stopwatch-Prefix.pch */,
+				FCD7E2D7164082780009AD2C /* TeaRaffle-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -136,9 +140,9 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		FCD7E2C3164082780009AD2C /* Stopwatch */ = {
+		FCD7E2C3164082780009AD2C /* Tea Raffle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCD7E2E3164082780009AD2C /* Build configuration list for PBXNativeTarget "Stopwatch" */;
+			buildConfigurationList = FCD7E2E3164082780009AD2C /* Build configuration list for PBXNativeTarget "Tea Raffle" */;
 			buildPhases = (
 				FCD7E2C0164082780009AD2C /* Sources */,
 				FCD7E2C1164082780009AD2C /* Frameworks */,
@@ -148,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = Stopwatch;
-			productName = Stopwatch;
-			productReference = FCD7E2C4164082780009AD2C /* Stopwatch.app */;
+			name = "Tea Raffle";
+			productName = TeaRaffle;
+			productReference = FCD7E2C4164082780009AD2C /* Tea Raffle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +166,7 @@
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Jon Gold";
 			};
-			buildConfigurationList = FCD7E2BE164082780009AD2C /* Build configuration list for PBXProject "Stopwatch" */;
+			buildConfigurationList = FCD7E2BE164082780009AD2C /* Build configuration list for PBXProject "TeaRaffle" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -174,7 +178,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCD7E2C3164082780009AD2C /* Stopwatch */,
+				FCD7E2C3164082780009AD2C /* Tea Raffle */,
 				FCD7E2CC164082780009AD2C /* Deployment */,
 			);
 		};
@@ -189,6 +193,7 @@
 				FCD7E2DB164082780009AD2C /* MainMenu.xib in Resources */,
 				FCD7E2DE164082780009AD2C /* rb_main.rb in Resources */,
 				FCD7E2E0164082780009AD2C /* AppDelegate.rb in Resources */,
+				FC4F27C016409F3A00DE1D3F /* JGTableDelegate.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +213,7 @@
 /* Begin PBXTargetDependency section */
 		FCD7E2CE164082780009AD2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FCD7E2C3164082780009AD2C /* Stopwatch */;
+			target = FCD7E2C3164082780009AD2C /* Tea Raffle */;
 			targetProxy = FCD7E2CD164082780009AD2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -284,15 +289,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"/Library/Frameworks\"",
+					"\"/Library/Frameworks\"/**",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Stopwatch/Stopwatch-Prefix.pch";
-				INFOPLIST_FILE = "Stopwatch/Stopwatch-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TeaRaffle/TeaRaffle-Prefix.pch";
+				INFOPLIST_FILE = "TeaRaffle/TeaRaffle-Info.plist";
+				PRODUCT_NAME = "Tea Raffle";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -301,15 +307,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"/Library/Frameworks\"",
+					"\"/Library/Frameworks\"/**",
 					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
 				);
 				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Stopwatch/Stopwatch-Prefix.pch";
-				INFOPLIST_FILE = "Stopwatch/Stopwatch-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TeaRaffle/TeaRaffle-Prefix.pch";
+				INFOPLIST_FILE = "TeaRaffle/TeaRaffle-Info.plist";
+				PRODUCT_NAME = "Tea Raffle";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -317,19 +324,21 @@
 		FCD7E2E7164082780009AD2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Debug;
 		};
 		FCD7E2E8164082780009AD2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCD7E2BE164082780009AD2C /* Build configuration list for PBXProject "Stopwatch" */ = {
+		FCD7E2BE164082780009AD2C /* Build configuration list for PBXProject "TeaRaffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCD7E2E1164082780009AD2C /* Debug */,
@@ -338,13 +347,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCD7E2E3164082780009AD2C /* Build configuration list for PBXNativeTarget "Stopwatch" */ = {
+		FCD7E2E3164082780009AD2C /* Build configuration list for PBXNativeTarget "Tea Raffle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCD7E2E4164082780009AD2C /* Debug */,
 				FCD7E2E5164082780009AD2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCD7E2E6164082780009AD2C /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -353,6 +363,7 @@
 				FCD7E2E8164082780009AD2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
